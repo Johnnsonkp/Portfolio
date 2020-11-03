@@ -4,25 +4,64 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Johnnsonkp</title>
-        <link type="text/css" rel="stylesheet" href="./styles/style.css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+        <!-- Link tag for font -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header id="landing-page">
-            <div class="main-navbar">
-                <div class="left">
+        <header id="showcase">
+            <!-- video playing in the background -->
+            <div class="video-container">
+                <video src="video.mp4" autoplay muted  loop></video>
+            </div>
 
+            <!-- Top right navbar -->
+            <!-- <div class="main-navbar">
+                <div class="left">
+                    <h1>Johnnsonkp</h1>
                 </div>
                 <nav class="right">
                     <ul>
                         <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
+                        <li>Portfolio</li>
+                        <li>About</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
                         <button class="nav-resume">Resume</button>
                     </ul>
                 </nav>
+            </div> -->
+
+
+            <div class="main-navbar">
+                <div class="left">
+                    <h1 class="hero-logo-text">Johnnsonkp</h1>
+                </div>
+                <nav class="right">
+                    <input type="checkbox" id="menuShowHide">
+                    <label for="menuShowHide"></label>
+                    <ul id="mainMenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul> 
+                    <button class="nav-resume">Resume</button>  
+                </nav>
+            </div>
+
+            <!-- View my work button -->
+            <div class="header-content">
+                <h1>Hello, I’m <span class="red-highlight">Chinonso John Nkpolukwu</span>.<br> I’m a full-stack web developer.</h1>
+                <button class="showcase-button">View my work ></button>
             </div>
         </header>
+
+        <section>
+
+        </section>
+
     </body>
 </html>
