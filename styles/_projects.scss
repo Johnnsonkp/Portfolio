@@ -2,9 +2,12 @@
     height: 100vh;
     position: relative;
     top: 350px;
+    // top: 280px;
     bottom: 20px;
     margin-top: 100px;
     color: #444649;
+    background-color: #fff !important;
+    padding-bottom: 80px;
 }
 #projects-section .project-img div{
     margin: 0;
@@ -26,7 +29,7 @@
     margin-bottom: 0;
 }
 #projects-section .project-img .all-projects{
-    width: 375px;
+    width: 350px;
     height: 280px;
     margin: 0px auto;
     padding-bottom: 0px;
@@ -36,33 +39,36 @@
     background-position: center center;
     background-size: cover;
     background-blend-mode: darken;
-    background-color: rgba(17, 17, 17, .6);
+    background-color: rgba(17, 17, 17, .4);
     cursor: pointer;
 }
 #projects-section .project-img .web-dev-image {
-    width: 375px;
+    width: 350px;
     height: 280px;
     margin: 0px auto;
     margin-top: -29.7px;
     padding-bottom: 0px;
     // border-radius: 15px;
-    background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    // background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-image: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-position: center center;
     background-size: cover;
     background-blend-mode: darken;
-    background-color: rgba(17, 17, 17, .6);
+    background-color: rgba(17, 17, 17, .0);
     cursor: pointer;
 }
 #projects-section .project-img .wed-design-img{
-    width: 375px;
+    width: 330px;
     height: 280px;
     margin: 0px auto;
     padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: -27.8px;
     background-image: url("https://images.unsplash.com/photo-1541662411770-fd2e3fc64781?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-position: center center;
     background-blend-mode: darken;
-    background-color: rgba(17, 17, 17, .6);
+    background-color: rgba(17, 17, 17, .4);
     cursor: pointer;
 }
 #projects-section .projects-content h1{
@@ -83,43 +89,54 @@
 }
 #projects-section .projects-content p{
     text-align: center;
-    line-height: 22px;
-    padding: 20px;
-    margin-bottom: 45px;
+    // line-height: 22px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    // margin-bottom: 45px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    // width: 315px;
 }
 #projects-section .projects-content .web-development h3{
     color: #e31b6d;
-    font-size: 25px;
+    font-size: 35px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 1000;
     position: relative;
     display: inline;
-    top: 155px;
-    left: 70px;
+    top: 140px;
+    // left: 70px;
+    left: 14px;
     text-align: center;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #projects-section .projects-content .web-design h3{
     color: #e31b6d;
-    font-size: 25px;
+    // font-size: 25px;
+    font-size: 40px;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 1000;
     position: relative;
     display: inline;
     top: 155px;
-    left: 110px;
+    // left: 110px;
+    left: 60px;
     text-align: center;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #projects-section .projects-content .all-projects h3{
     color: #e31b6d;
-    font-size: 27px;
+    font-size: 40px;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 1000;
     position: relative;
     display: inline;
-    top: 135px;
-    left: 100px;
+    top: 130px;
+    // left: 100px;
+    left: 47px;
     text-align: center;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin: 0;
