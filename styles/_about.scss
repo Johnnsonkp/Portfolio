@@ -1,0 +1,85 @@
+#about-section{
+    position: relative;
+    top: 650px;
+    height: 110vh;
+    margin-bottom: 10px;
+}
+#about-section .about-content{
+    width: 95%;
+    margin: auto;
+}
+#about-section .about-content h1{
+    font-size: 33.3px;
+    text-transform: uppercase;
+    color: #444649;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#about-section .about-content .header-hr hr{
+    margin-top: 0;
+    width: 20%;
+    border: 2px solid #e31b6d;
+    color: #444649;
+}
+#about-section .about-content .say-hi{
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+#about-section .about-content .left-img{
+    text-align: center;
+}
+#about-section .about-content img {
+    width: 320px;
+    display: flex;
+    margin: auto;
+    position: absolute;
+}
+#about-section .about-content .object{
+    // background-color: rgba(227, 27, 109, 0.8);
+    // background-color: rgba(106, 104, 90, 0.8);
+    // background-color: rgba(245,245,220,0.8);
+    background-color: rgba(165, 55, 253, 1);
+    opacity: 1;
+    width: 218px;
+    height: 218px;
+    position: absolute;
+    left: 140px;
+    top: 125px;
+    color: rgb(7, 7, 7);
+    z-index: -1;
+}
+#about-section .about-content .about-me {
+    position: absolute;
+    top: 580px;
+    // left: 41.905px;
+    left: 30px;
+    right: 30px;
+    color: #444649;
+    text-align: center;
+}
+#about-section .about-content .about-me h3{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+#about-section .about-content .about-me hr {
+    margin-top: 0;
+    width: 20%;
+    border: 2px solid #e31b6d;
+    color: #444649;
+}
+#about-section .about-content .about-me p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    width: 315px;
+}
+#about-section .about-content .about-me button {
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #e31b6d;
+    border: 1px solid black;
+    border-radius: 20px; 
+    cursor: pointer;
+}

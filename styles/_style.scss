@@ -41,6 +41,8 @@ body{
 .header-content{
     z-index: 10;
     position: relative;
+    top: 80px;
+    bottom: 80px;
     align-self: center;
     width: 90%;
     margin: auto;
@@ -67,13 +69,16 @@ body{
 }
 .main-navbar{
     z-index: 10;
-    position: relative;
+    position: absolute;
+    top: 3px;      //remove when position is set to absolute
+    left: 13px;    //remove when position is set to absolute 
     width: 95%;
-    margin: auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
-    
 }
+
+
 .main-navbar .nav-resume{
     display: none;
 }
