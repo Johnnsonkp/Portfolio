@@ -2,6 +2,10 @@
   color: #e31b6d;
 }
 
+* a {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
@@ -652,6 +656,10 @@ body {
   margin-bottom: 0;
 }
 
+#all-projects .highlight {
+  color: #e31b6d;
+}
+
 #all-projects h1 {
   font-size: 33.3px;
   text-transform: uppercase;
@@ -716,5 +724,9 @@ body {
 
 #main-footer .all-projects-footer {
   margin-top: 20;
+}
+
+#main-footer .design-footer {
+  margin-top: 0px;
 }
 /*# sourceMappingURL=main.css.map */

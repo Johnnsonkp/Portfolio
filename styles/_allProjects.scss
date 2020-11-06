@@ -7,6 +7,9 @@
     padding-top: 50px;
     margin-bottom: 0;
 }
+#all-projects .highlight{
+    color: #e31b6d;
+}
 #all-projects h1 {
     font-size: 33.3px;
     text-transform: uppercase;
@@ -59,4 +62,8 @@
 }
 #main-footer .all-projects-footer{
     margin-top: 20;
+}
+
+#main-footer .design-footer{
+    margin-top: 0px;
 }
