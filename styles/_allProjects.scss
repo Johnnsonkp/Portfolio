@@ -1,11 +1,16 @@
 #projects-showcase .nav-wrapper{
     background-color: black;
     height: 8vh;
+    box-sizing: border-box;
 }
 #all-projects{
+    box-sizing: border-box;
     height: 570vh;
     padding-top: 50px;
     margin-bottom: 0;
+    // background-color: rgba(165, 55, 253, 1);
+    // background-color: rgba(37, 41, 52, 0.1);
+    background-color: #fff;
 }
 #all-projects .highlight{
     color: #e31b6d;
@@ -21,9 +26,6 @@
     // color: rgba(165, 55, 253, 1);
     text-transform: uppercase;
     margin-bottom: 10px;
-}
-#all-projects .purple-highlight{
-    // color: rgba(165, 55, 253, 1);
 }
 #all-projects .title-hr{
     margin-bottom: 50px;
@@ -45,23 +47,30 @@
     align-items: center;
 }
 #all-projects .project-wrapper{
-    background-color: #f5f5f5;
-    background-color: #252934;
-    background-color: rgb(245, 245, 245);
-    margin-bottom: 30px;
-    padding: 20px;
+    // background-color: #f5f5f5;
+    background-color: #1e242c;
+    color: #fff;
+    // background-color: #252934;
+    // background-color: rgba(37, 41, 52, 0.5);
+    // background-color: rgb(245, 245, 245);
+    // background-color: rgba(245, 245, 245, 0.9);
+    // margin-bottom: 30px;
+    margin-bottom: 40px;
+    width: 91%;
+    padding: 10px;
 }
 #all-projects img{
     width: 340px;
     height: 280px;
     margin: auto;
     margin-bottom: 5px;
+    // border: solid 2px black;
 }
 #all-projects .projects{
     cursor: pointer;
 }
 #main-footer .all-projects-footer{
-    margin-top: 20;
+    margin-top: 0px;
 }
 
 #main-footer .design-footer{

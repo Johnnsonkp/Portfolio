@@ -118,11 +118,13 @@ body{
     height: 27vh;
     background-color: #1e242c;
     border-top: solid 1px #616161;
+    padding-bottom: 28px;
 }
 
 #main-footer button {
     position: relative;
-    left: 165px;
+    left: 50%;
+    transform: translatex(-50%);
     bottom: 30px;
     padding: 8px 8px;
     background-color: #e31b6d;

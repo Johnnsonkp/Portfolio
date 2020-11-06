@@ -1,0 +1,141 @@
+#about-more-content{
+    margin-top: 80px;
+    height: 80vh;
+}
+#about-more-content .content-wrapper .container{
+    width: 95%;
+    margin: auto;
+}
+#about-more-content h1 {
+    font-size: 26.3px;
+    text-transform: uppercase;
+    color: #444649;
+    text-align: center;
+}
+#about-more-content .header-hr hr {
+    margin-top: 0;
+    width: 20%;
+    border: 2px solid #e31b6d;
+    color: #444649;
+    // margin-bottom: 10px;
+    margin-top: 0;
+}
+#about-more-content .main-content .text-content{
+    margin-top: 0;
+}
+#about-more-content .main-content .text-content .large-comma-top{
+    font-size: 300px;
+    color: rgba(165, 55, 253, 0.2);
+    display: inline;
+    z-index: -1;
+    position: relative;
+    top: -15px;
+    left: -10px;
+}
+#about-more-content .main-content .text-content .large-commas-bottom{
+    font-size: 300px;
+    color: rgba(165, 55, 253, 0.2);
+    display: inline;
+    z-index: -1;
+    position: relative;
+    top: -420px;
+    left: 270px;
+}
+#about-more-content .main-content .text-content h4{
+    margin-top: 0;
+    position: relative;
+    bottom: 270px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    // width: 315px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+#about-more-content .main-content .education-experience{
+    position: relative;
+    bottom: 550px;
+    background-color: #1e242c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    color: #fff;
+}
+#about-more-content .main-content .text-content .professional-experience {
+    margin-bottom: 40px;
+}
+#about-more-content .main-content .text-content .professional-experience h3, .Education h3{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+#about-more-content .main-content .text-content .professional-experience .all-jobs{
+    margin-top: 30px;
+}
+#about-more-content .main-content .text-content .professional-experience .jobs{
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#about-more-content .main-content .text-content .Education {
+    margin-top: 65px;
+}
+#about-more-content .main-content .text-content .Education .studies{
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#about-more-content .main-content .text-content .professional-experience .jobs .left{
+    flex: 0.2;
+}
+#about-more-content .main-content .text-content .professional-experience .jobs .right{
+    flex: 2.5;
+}
+#about-more-content .main-content .text-content .Education .studies .left{
+    flex: 0.2;
+}
+#about-more-content .main-content .text-content .Education .studies .right {
+    flex: 2.5;
+}
+#about-more-content .professional-experience .jobs p:nth-of-type(1){
+    margin-bottom: 5px;
+}
+#about-more-content .professional-experience .jobs p:nth-of-type(2){
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+#about-more-content .Education .studies p:nth-of-type(1){
+    margin-bottom: 5px;
+}
+#about-more-content .main-content .text-content .professional-experience i{
+    color: #e31b6d;
+    outline-color: #444649;
+    justify-content: flex-start;
+}
+#about-more-content .main-content .text-content .Education i{
+    color: #e31b6d;
+    outline-color: #444649;
+    justify-content: flex-start;
+}
+// #about-more-content .professional-experience #text {
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+// }
+
+
+#about-more-content .main-content .text-content .professional-experience hr, .Education hr{
+    margin-top: 0;
+    width: 20%;
+    border: 2px solid #e31b6d;
+    color: #444649;
+    position: relative;
+    right: 140px;
+    top: 10px;
+}
+#about-more-content .main-content .text-content .Education .education-wrapper{
+    margin-top: 30px;
+}
+    
