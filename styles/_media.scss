@@ -1,0 +1,126 @@
+// Media queries
+
+//main Navbar hamburger menu
+@media screen and (min-width: 300px) {
+    
+    #mainMenu, .right input {
+		display:none;
+	}
+    #menuShowHide+label:before {
+        content:"Show menu";
+        cursor: pointer;
+        text-decoration: none;
+	}
+    #menuShowHide:checked ~ #mainMenu {
+        display:block;
+        position: relative;
+        bottom: 5px;
+        float: right;
+        list-style: none;
+        color: #fff; 
+        cursor: pointer;
+        text-decoration: none;
+    }  
+    #menuShowHide+label {
+        position: relative;
+        float: right;
+        padding: 0.5em;
+        margin: -4.75em 0.5em 0;
+        border: transparent;
+        background: transparent;
+        color: #FFF;
+        border-radius: 0.5em;
+        margin-top: -25px;
+        cursor: pointer;
+    }
+    #menuShowHide+label:active,
+    #menuShowHide+label:focus,
+    #menuShowHide+label:hover {
+        background: black;
+    }
+    #menuShowHide+label:after, #menuShowHide+label:before {
+        content: "";
+        display: block;
+        width: 2em;
+        height: 0.5em;
+        border: solid #FFF;
+        border-width: 0.25em 0;
+    }
+    #menuShowHide+label:after {
+        border-top: 0;
+    }
+}
+
+// Index.html page
+@media screen and (min-width: 500px){
+    // //Showcase 
+    // #showcase{
+    //     margin-bottom: 0px;
+    // }
+    //projects
+    #projects-section {
+        margin-top: 150px;
+    }
+    #projects-section .project-img .all-projects{
+        width: 85%;
+    }
+    #projects-section .project-img .web-development{
+        width: 85%;
+    }
+    #projects-section .project-img .web-design{
+        width: 85%;
+    
+    }
+    #projects-section .project-img .all-projects h3{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        margin-right: 15%;
+        
+    }
+//About section
+    #about-section .about-content .greeting-img-wrapper{
+        height: 60vh;
+        display: inline-block;
+        width: 80%;
+        display: inline-block;
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+    #about-section .about-content .about-me {
+        margin-top: 30px;
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+//Blog section
+    #blog-section .blogs img {
+        width: 85%;
+    }
+//Contact section
+//     #contact-section .contact-form{
+//         width: 90%;
+//         margin: auto;
+//         text-align: center;
+//     }
+    #contact-section .contact-form input {
+        width: 400px;
+    }
+    #contact-section .contact-form textarea {
+        width: 432px;
+    }
+//     #contact-section .contact-form .contact-submit{
+//         width: 432px;
+//         text-align: center;
+        
+//     }
+//     #contact-section .contact-form .submit-button {
+//         width: 100%;
+        
+//     }
+// }
+}

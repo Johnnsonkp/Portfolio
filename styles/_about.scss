@@ -1,7 +1,7 @@
 #about-section{
     position: relative;
     top: 680px;
-    height: 115vh;
+    height: 130vh;
     margin-bottom: 10px;
     background-color: #f5f5f5;
     padding-bottom: 50px;
@@ -23,10 +23,11 @@
     width: 20%;
     border: 2px solid #e31b6d;
     color: #444649;
+    margin-bottom: 50px;
 }
 #about-section .about-content .say-hi{
     font-size: 60px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     margin-top: 30px;
 }
 #about-section .about-content .left-img{
@@ -34,9 +35,11 @@
 }
 #about-section .about-content img {
     width: 320px;
-    display: flex;
-    margin: auto;
-    position: absolute;
+    position: relative;
+    top: -215px;
+
+    // margin: auto;
+    // position: absolute;
    
 }
 #about-section .about-content .object{
@@ -47,9 +50,12 @@
     opacity: 1;
     width: 218px;
     height: 218px;
-    position: absolute;
-    left: 135px;
-    top: 175px;
+    // position: absolute;
+    position: relative;
+    left: 125px;
+    // top: 175px;
+    top: -30px;
+
     color: rgb(7, 7, 7);
     z-index: -0.5;
 }
@@ -67,6 +73,7 @@
     text-align: center;
 }
 #about-section .about-content .about-me h3{
+    margin-top: 80px;
     font-size: 22px;
     margin-bottom: 8px;
 }

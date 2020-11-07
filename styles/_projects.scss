@@ -1,13 +1,17 @@
+// header, body, section{
+//     overflow-x: hidden; //horizontal
+// }
 #projects-section{
-    height: 100vh;
+    height: 130vh;
     position: relative;
-    top: 350px;
+    top: 480px;
     // top: 280px;
     bottom: 20px;
     margin-top: 100px;
     color: #444649;
     background-color: #fff !important;
     padding-bottom: 80px;
+
 }
 #projects-section .project-img div{
     margin: 0;
@@ -20,13 +24,15 @@
 }
 #projects-section .project-img .web-development{
     height: 280px;
+    
 }
 #projects-section .project-img .web-design{
     height: 280px;
+    
 }
 #projects-section .project-img .all-projects{
     height: 280px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 #projects-section .project-img .all-projects{
     width: 350px;
@@ -41,12 +47,14 @@
     background-blend-mode: darken;
     background-color: rgba(17, 17, 17, .4);
     cursor: pointer;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
-#projects-section .project-img .web-dev-image {
+#projects-section .project-img .web-development {
     width: 350px;
     height: 280px;
     margin: 0px auto;
-    margin-top: -29.7px;
+    margin-top: -18.7px;
     padding-bottom: 0px;
     // border-radius: 15px;
     // background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
@@ -56,20 +64,26 @@
     background-blend-mode: darken;
     background-color: rgba(17, 17, 17, .0);
     cursor: pointer;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-#projects-section .project-img .wed-design-img{
-    width: 330px;
+#projects-section .project-img .web-design{
+    // width: 330px;
+    width: 350px;
     height: 280px;
     margin: 0px auto;
-    padding-top: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: -27.8px;
+    // padding-top: 0;
+    // padding-left: 10px;
+    // padding-right: 10px;
+    margin-top: 18px;
     background-image: url("https://images.unsplash.com/photo-1541662411770-fd2e3fc64781?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-position: center center;
     background-blend-mode: darken;
     background-color: rgba(17, 17, 17, .4);
     cursor: pointer;
+    // margin-top: 0px;
+    padding-top: 0;
+    margin-bottom: 20px;
 }
 #projects-section .projects-content h1{
     font-size: 33.3px;
@@ -102,38 +116,44 @@
 }
 #projects-section .projects-content .web-development h3{
     color: #e31b6d;
-    font-size: 35px;
+    font-size: 33px;
     text-transform: uppercase;
     font-weight: 1000;
     position: relative;
-    display: inline;
-    top: 140px;
+    display: fixed;
+    top: 100px;
     // left: 70px;
-    left: 14px;
+    left: 5px;
     text-align: center;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom: 0px;
+
 }
 #projects-section .projects-content .web-design h3{
+    margin-top: 0px;
     color: #e31b6d;
     // font-size: 25px;
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 1000;
     position: relative;
-    display: inline;
-    top: 155px;
+    // display: inline;
+    display: fixed;
+    top: 125px;
     // left: 110px;
-    left: 60px;
+    left: 0px;
     text-align: center;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #projects-section .projects-content .all-projects h3{
+    margin-top: 0px;
     color: #e31b6d;
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 1000;
     position: relative;
     display: inline;
+    display: fixed;
     top: 130px;
     // left: 100px;
     left: 47px;
