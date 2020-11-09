@@ -1,6 +1,16 @@
 .red-highlight{
     color: #e31b6d;
 }
+.hover-text{
+    display: none;
+}
+#blog-section .blogs-not-displayed{
+    display: none;
+}
+body{
+    overflow-x: hidden;
+    
+}
 * a{
     text-decoration: none;
     color: #fff;
@@ -15,11 +25,11 @@ body{
     background-color: #fff;
 }
 
-
 // Show case section
 #show-case{
     position: relative;
     height: 200vh;
+    width: 100vh;
     display: flex;
     // flex-direction: row;
     // align-items: center;
@@ -35,7 +45,7 @@ body{
     position: absolute; 
     top: 0;
     left: 0;
-    width: 100%;
+    width: cover;
     // height: 100%;
     max-width: 180vh;
     overflow: hidden;
@@ -130,6 +140,7 @@ body{
     top: 700px;
     height: 27vh;
     background-color: #1e242c;
+    background-color: #1b242f;
     border-top: solid 1px #616161;
     padding-bottom: 28px;
 }
@@ -152,7 +163,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
-#main-footer .footer-container .instagram, .linkedin, .codepen {
+#main-footer .footer-container .instagram, .linkedin, .codepen, .github {
     border: 1px solid #252934;
     padding: 10px;
     background-color: #252934;
@@ -169,66 +180,3 @@ body{
 #main-footer .highlight {
     color: #e31b6d;
 }
-
-
-
-
-
-
-
-
-
-// // Media queries
-// @media screen and (min-width: 300px) {
-    
-//     #mainMenu, .right input {
-// 		display:none;
-// 	}
-//     #menuShowHide+label:before {
-//         content:"Show menu";
-//         cursor: pointer;
-//         text-decoration: none;
-        
-// 	}
-//     #menuShowHide:checked ~ #mainMenu {
-//         display:block;
-//         position: relative;
-//         bottom: 5px;
-//         float: right;
-//         list-style: none;
-//         color: #fff; 
-//         cursor: pointer;
-//         text-decoration: none;
-//     }  
-//     #menuShowHide+label {
-//         position: relative;
-//         float: right;
-//         padding: 0.5em;
-//         margin: -4.75em 0.5em 0;
-//         border: transparent;
-//         background: transparent;
-//         color: #FFF;
-//         border-radius: 0.5em;
-//         margin-top: -25px;
-//         cursor: pointer;
-//     }
-//     #menuShowHide+label:active,
-//     #menuShowHide+label:focus,
-//     #menuShowHide+label:hover {
-//         background: black;
-//     }
-//     #menuShowHide+label:after, #menuShowHide+label:before {
-//         content: "";
-//         display: block;
-//         width: 2em;
-//         height: 0.5em;
-//         border: solid #FFF;
-//         border-width: 0.25em 0;
-//     }
-//     #menuShowHide+label:after {
-//         border-top: 0;
-//     }
-// }
-// @media screen and (min-width: 500px){
-//     //projects
-// }

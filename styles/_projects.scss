@@ -13,6 +13,12 @@
     padding-bottom: 80px;
 
 }
+#projects-section:hover{
+    #mainMenu .portfolio{
+        color: #e31b6d;
+    }
+    
+}
 #projects-section .project-img div{
     margin: 0;
 }
@@ -77,6 +83,7 @@
     // padding-right: 10px;
     margin-top: 18px;
     background-image: url("https://images.unsplash.com/photo-1541662411770-fd2e3fc64781?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    // background-image: url("https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
     background-position: center center;
     background-blend-mode: darken;
     background-color: rgba(17, 17, 17, .4);

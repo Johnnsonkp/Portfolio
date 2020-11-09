@@ -45,26 +45,207 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: auto;
 }
 #all-projects .project-wrapper{
     // background-color: #f5f5f5;
-    background-color: #1e242c;
+    // background-color: #1e242c;
+    // background-color: #1b242f;
+    // border: solid 1px #616161;
     color: #fff;
     // background-color: #252934;
     // background-color: rgba(37, 41, 52, 0.5);
     // background-color: rgb(245, 245, 245);
     // background-color: rgba(245, 245, 245, 0.9);
     // margin-bottom: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     width: 91%;
     padding: 10px;
 }
+#all-projects .kanter-project-wrapper{
+    background-color:rgba(210,105,30, 0.4);
+    background-color: rgba(165, 55, 253, 1);
+    background-color: rgba(203,172,63, 0.8);
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 10px;
+    position: relative;
+    left: -10px;
+    bottom: 19px;
+}
+#all-projects .kanter-project-wrapper p{
+
+}
+#all-projects .kanter-project-wrapper .header-hr{
+    padding-bottom: 8px;
+}
+//zen gardens
+#all-projects .zen-project-wrapper{
+    background-color:rgba(210,105,30, 0.4);
+    background-color: rgba(165, 55, 253, 1);
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -10px;
+    bottom: 19px;
+}
+#all-projects .zen-project-wrapper .header-hr{
+    padding-bottom: 8px;
+}
+//asap mob
+#all-projects .asap-project-wrapper{
+    background-color:rgba(210,105,30, 0.4);
+    background-color: rgba(165, 55, 253, 1);
+    background-color: #3b427e;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -10px;
+    bottom: 19px;
+}
+#all-projects .asap-project-wrapper .header-hr{
+    padding-bottom: 8px;
+}
+//todo list
+#all-projects .todo-project-wrapper{
+    background-color:rgba(210,105,30, 0.4);
+    background-color: rgba(165, 55, 253, 1);
+    background-color: #ff00ff;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -10px;
+    bottom: 19px;
+}
+#all-projects .todo-project-wrapper .header-hr{
+    padding-bottom: 8px;
+}
+//Pluralsite
+#all-projects .Pluralsite-project-wrapper{
+    background-color:rgba(210,105,30, 0.4);
+    background-color: rgba(165, 55, 253, 1);
+    background-color: #e2336c;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -10px;
+    bottom: 19px;
+}
+#all-projects .Pluralsite-project-wrapper .header-hr{
+    padding-bottom: 8px;
+}
+//Bitchain 
+#all-projects .BitChain-project-wrapper{
+    background-color:rgba(210,105,30, 0.4);
+    background-color: rgba(165, 55, 253, 1);
+    background-color: #998100;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -10px;
+    bottom: 19px;
+}
+#all-projects .BitChain-project-wrapper .header-hr{
+    padding-bottom: 8px;
+}
+//RGB game
+#all-projects .RGB-project-wrapper{
+    background-color:rgba(210,105,30, 0.4);
+    background-color: rgba(165, 55, 253, 1);
+    background-color: #2a2a2a;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -10px;
+    bottom: 19px;
+}
+#all-projects .RGB-project-wrapper .header-hr{
+    padding-bottom: 8px;
+}
+//Itunes clone
+#all-projects .itunes-project-wrapper{
+    background-color:rgba(210,105,30, 0.4);
+    background-color: rgba(165, 55, 253, 1);
+    background-color: #000000;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -10px;
+    bottom: 19px;
+}
+#all-projects .itunes-project-wrapper .header-hr{
+    padding-bottom: 8px;
+}
+//Parallax site
+#all-projects .parallax-project-wrapper{
+    background-color:rgba(210,105,30, 0.4);
+    background-color: rgba(165, 55, 253, 1);
+    background-color: #bdbdbd;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -10px;
+    bottom: 19px;
+}
+#all-projects .parallax-project-wrapper .header-hr{
+    padding-bottom: 8px;
+}
+
 #all-projects img{
-    width: 340px;
-    height: 280px;
+    // width: 340px;
+    width: 360px;
+    // height: 280px;
+    height: 250px;
     margin: auto;
     margin-bottom: 5px;
     // border: solid 2px black;
+    position: relative;
+    left: -10px;
+    top: -10px;
 }
 #all-projects .projects{
     cursor: pointer;

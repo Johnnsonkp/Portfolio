@@ -25,41 +25,29 @@
                 <video src="video.mp4" autoplay muted  loop playsinline></video>
             </div>
 
-            <!-- Top right navbar -->
-            <!-- <div class="main-navbar">
-                <div class="left">
-                    <h1>Johnnsonkp</h1>
+            <div id=nav-container>
+                <div class="main-navbar">
+                    <a href="./index.html" class="left">
+                        <h1 class="hero-logo-text">Johnnsonkp</h1>
+                    </a>
+                    <!--hamburger menu -->
+                    <div id="hamburger-menu">
+                        <nav class="right">
+                            <input type="checkbox" id="menuShowHide">
+                            <label for="menuShowHide"></label>
+                            <ul id="mainMenu">
+                                <li class="menu-li home-li"><a class="home" href="#">Home</a></li>
+                                <li class="menu-li portfolio"><a class="portfolio" href="#">Portfolio</a></li>
+                                <li class="menu-li"><a class="about" href="#">About</a></li>
+                                <li class="menu-li"><a class="blog" href="#">Blog</a></li>
+                                <li class="menu-li"><a class="contact" href="#">Contact</a></li>
+                                <li class="resume-button"><a href="">Resume</a></li>
+                            </ul> 
+                        </nav>
+                    </div>
                 </div>
-                <nav class="right">
-                    <ul>
-                        <li>Home</li>
-                        <li>Portfolio</li>
-                        <li>About</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
-                        <button class="nav-resume">Resume</button>
-                    </ul>
-                </nav>
-            </div> -->
-
-
-            <div class="main-navbar">
-                <a href="./index.html" class="left">
-                    <h1 class="hero-logo-text">Johnnsonkp</h1>
-                </a>
-                <nav class="right">
-                    <input type="checkbox" id="menuShowHide">
-                    <label for="menuShowHide"></label>
-                    <ul id="mainMenu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul> 
-                    <button class="nav-resume">Resume</button>  
-                </nav>
             </div>
+            
 
             <!-- View my work button -->
             <a href="./pages/all-projects.html" class="header-content">
@@ -76,37 +64,35 @@
                 </div>
                 
                 <div>
-                    <p>
-                         <!-- eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br>
-                          enim ad minim veniam, quis nostrud exercitation ullamco<br>
-                           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br>
-                            dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>
-                             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br>
-                              proident, sunt in culpa qui officia deserunt mollit anim id est<br>
-                               laborum. -->
-                               
+                    <p class="projects-text">
                         Cross skilled in both web development and web design. Click below
                         to look through my extensive range of projects.
                     </p>
                     <div class="project-img">
 
-                        <a href="./pages/all-projects.html"> 
+                        <a class="all-image" href="./pages/all-projects.html"> 
                             <div class="all-projects">
                                 <h3>All Projects</h3>
+                                <span class="hover-text">All Projects</span>
                                 <div class="all-projects-img"></div>
                             </div>
                         </a> 
 
-                        <a href="./pages/dev.html"> 
+                        <a class="dev-image" href="./pages/dev.html"> 
                             <div class="web-development">
                                 <h3>Web Development</h3>
+                                <div class="hover-text-container">
+                                    <span class="hover-text">Web Development</span>
+                                </div>
+                                
                                 <div class="web-dev-image"></div>
                             </div>
                         </a>
 
-                        <a href="./pages/design.html"> 
+                        <a class="design-image " href="./pages/design.html"> 
                             <div class="web-design">
                                 <h3>Web Design</h3>
+                                <span class="hover-text">Web Design</span>
                                 <div class="wed-design-img"></div>
                             </div>
                         </a>
@@ -125,25 +111,28 @@
                     <hr>
                 </div>
 
-                <div class="greeting-img-wrapper">
-                    <h2 class="say-hi">Say hi.</h2>
-
-                    <div clas="left-img">
-                        <div class="object"></div>
-                        <img src="./Images/portfolio-pic.jpg">
+                <div class="about-content-wrapper">
+                    <div class="greeting-img-wrapper">
+                        <h2 class="say-hi">Say hi.</h2>
+    
+                        <div clas="left-img">
+                            <div class="object"></div>
+                            <img src="./Images/portfolio-pic.jpg">
+                        </div>
+                    </div>
+                    
+    
+                    <div class="about-me">
+                        <h3>Chinonso John Nkpolukwu</h3>
+                        <hr>
+                        <p>I’m a Melbourne based<br>
+                             developer/designer. I love creating<br>
+                              things and share an equal passion for<br>
+                               playing sports and keeping fit.</p>
+                        <button><a href="./pages/about-more.html">Read more</a></button>
                     </div>
                 </div>
                 
-
-                <div class="about-me">
-                    <h3>Chinonso John Nkpolukwu</h3>
-                    <hr>
-                    <p>I’m a Melbourne based<br>
-                         developer/designer. I love creating<br>
-                          things and share an equal passion for<br>
-                           playing sports and keeping fit.</p>
-                    <button><a href="./pages/about-more.html">Read more</a></button>
-                </div>
             </div>
         </section>
 
@@ -157,7 +146,7 @@
                     <img src="https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
                     <div class="title-hr">
                         <h3>Blog title</h3>
-                        <date class="date">5/11/2020</date>
+                        <span class="date">5/11/2020</span>
                         <hr>
                     </div>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
@@ -165,17 +154,56 @@
                 </div>
                 <div class="blogs">
                     <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-                    <h3>Blog title</h3>
-                    <date>5/11/2020</date>
-                    <hr>
+                    <div class="title-hr">
+                        <h3>Blog title</h3>
+                        <date class="date">5/11/2020</date>
+                        <hr>
+                    </div>
+                    
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
                     <button>Read more</button>
                 </div>
                 <div class="blogs">
                     <img src="https://images.unsplash.com/photo-1542353436-312f0e1f67ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-                    <h3>Blog title</h3>
-                    <date>5/11/2020</date>
-                    <hr>
+                    <div class="title-hr">
+                        <h3>Blog title</h3>
+                        <date class="date">5/11/2020</date>
+                        <hr>
+                    </div>
+                    
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
+                    <button>Read more</button>
+                </div>
+                <div class="blogs blogs-not-displayed">
+                    <img src="https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                    <div class="title-hr">
+                        <h3>Blog title</h3>
+                        <date class="date">5/11/2020</date>
+                        <hr>
+                    </div>
+                    
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
+                    <button>Read more</button>
+                </div>
+                <div class="blogs blogs-not-displayed">
+                    <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                    <div class="title-hr">
+                        <h3>Blog title</h3>
+                        <date class="date">5/11/2020</date>
+                        <hr>
+                    </div>
+                    
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
+                    <button>Read more</button>
+                </div>
+                <div class="blogs blogs-not-displayed">
+                    <img src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    <div class="title-hr">
+                        <h3>Blog title</h3>
+                        <date class="date">5/11/2020</date>
+                        <hr>
+                    </div>
+                    
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...</p>
                     <button>Read more</button>
                 </div>
@@ -229,6 +257,9 @@
                 </div>
                 <div class="codepen">
                     <a href="https://codepen.io/Johnnsonkp"><i class="fab fa-codepen fa-2x"></i></a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/Johnnsonkp"><i class="fab fa-github fa-2x"></i></a>
                 </div>
             </div>
             <h5><span class="highlight">Johnnsonkp</span> &copy2020 </h5>
