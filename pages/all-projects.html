@@ -24,26 +24,56 @@
     </head>
     <body>
 
-        <header id="projects-showcase">
+        <header class="all-projects-header" id="showcase projects-showcase">
             <div class="nav-wrapper">
-                <div class="main-navbar">
-                    <a href="../index.html" class="left">
-                        <h1 class="hero-logo-text">Johnnsonkp</h1>
-                    </a>
-                    <nav class="right">
-                        <input type="checkbox" id="menuShowHide">
-                        <label for="menuShowHide"></label>
-                        <ul id="mainMenu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul> 
-                        <button class="nav-resume">Resume</button>  
-                    </nav>
+                <div id="nav-container">
+                    <div class="main-navbar">
+                        <a href="../index.html" class="left">
+                            <h1 class="hero-logo-text">Johnnsonkp</h1>
+                        </a>
+                        <!-- Hamburger menu -->
+                        <div id="hamburger-menu">
+                            <nav class="right">
+                                <input type="checkbox" id="menuShowHide">
+                                <label for="menuShowHide"></label>
+                                <ul id="mainMenu">
+                                    <li class="menu-li home-li"><a class="home" href="#">Home</a></li>
+                                    <li class="menu-li portfolio"><a class="portfolio" href="#">Portfolio</a></li>
+                                    <li class="menu-li"><a class="about" href="#">About</a></li>
+                                    <li class="menu-li"><a class="blog" href="#">Blog</a></li>
+                                    <li class="menu-li"><a class="contact" href="#">Contact</a></li>
+                                    <li class="resume-button"><a href="">Resume</a></li>
+                                </ul>   
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- <div class="nav-wrapper">
+                <div id="nav-container">
+                    <div class="main-navbar">
+                        <a href="./index.html" class="left">
+                            <h1 class="hero-logo-text">Johnnsonkp</h1>
+                        </a>
+                        <--hamburger menu -->
+                        <!-- <div id="hamburger-menu">
+                            <nav class="right">
+                                <input type="checkbox" id="menuShowHide">
+                                <label for="menuShowHide"></label>
+                                <ul id="mainMenu">
+                                    <li class="menu-li home-li"><a class="home" href="#">Home</a></li>
+                                    <li class="menu-li portfolio"><a class="portfolio" href="#">Portfolio</a></li>
+                                    <li class="menu-li"><a class="about" href="#">About</a></li>
+                                    <li class="menu-li"><a class="blog" href="#">Blog</a></li>
+                                    <li class="menu-li"><a class="contact" href="#">Contact</a></li>
+                                    <li class="resume-button"><a href="">Resume</a></li>
+                                </ul> 
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div> --> 
+            
         </header>
 
         <section id="all-projects">

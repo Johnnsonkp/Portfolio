@@ -13,11 +13,17 @@
     padding-bottom: 80px;
 
 }
-#projects-section:hover{
+.projects-section:hover{
     #mainMenu .portfolio{
         color: #e31b6d;
+        cursor: pointer;
     }
     
+}
+#projects-section:hover {
+    #projects-section .projects-content h1{
+        color: #e31b6d;
+    }
 }
 #projects-section .project-img div{
     margin: 0;
