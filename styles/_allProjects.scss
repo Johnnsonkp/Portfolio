@@ -6,7 +6,6 @@
 .main-navbar{
     z-index: 1;
     position: fixed;
-    // background-color: rgba(000, 000, 000, 0.9);
     top: 3px;      //remove when position is set to absolute
     left: 13px;    //remove when position is set to absolute 
     width: 95%;
@@ -36,7 +35,6 @@
 }
 .main-navbar .right{
     margin-top: 30px;
-    // margin-right: 30px;
 }
 
 #projects-showcase .nav-wrapper{
@@ -52,10 +50,7 @@
     margin-bottom: 0;
     width: 100%;
     margin: auto;
-    // background-color: rgba(165, 55, 253, 1);
-    // background-color: rgba(37, 41, 52, 0.1);
     background-color: #fff;
-    // background-color: #212121;
 }
 #all-projects .highlight{
     color: #e31b6d;
@@ -68,7 +63,6 @@
     margin-bottom: 10px;
 }
 #all-projects h3 {
-    // color: rgba(165, 55, 253, 1);
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -90,8 +84,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // width: 100%;
-    // margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,8 +95,6 @@
 #all-projects .project-wrapper{
     color: #fff;
     margin-bottom: 70px;
-    // width: 91%;
-    // margin: auto;
     padding: 0px;
     
 }
@@ -118,7 +108,6 @@
     background-color: rgba(165, 55, 253, 1);
     background-color: rgba(203,172,63, 0.8);
     width: 340px;
-    // margin: auto;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 0;
@@ -128,9 +117,6 @@
     position: relative;
     left: -10px;
     bottom: 19px;
-}
-#all-projects .kanter-project-wrapper p{
-
 }
 #all-projects .kanter-project-wrapper .header-hr{
     padding-bottom: 8px;
@@ -143,7 +129,6 @@
     background-color: #ff00ff;
     background-color: rgba(165, 55, 253, 1);
     width: 340px;
-    // margin: auto;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 0;
@@ -165,7 +150,6 @@
     background-color: rgba(165, 55, 253, 1);
     background-color: #ff00ff;
     width: 340px;
-    // margin: auto;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 0;
@@ -185,7 +169,6 @@
     background-color: #ff00ff;
     background-color: #0892d0;
     width: 340px;
-    // margin: auto;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 0;
@@ -204,7 +187,6 @@
     background-color: rgba(165, 55, 253, 1);
     background-color: #e2336c;
     width: 340px;
-    // margin: auto;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 0;
@@ -223,7 +205,6 @@
     background-color: rgba(165, 55, 253, 1);
     background-color: #998100;
     width: 340px;
-    // margin: auto;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 0;
@@ -242,7 +223,6 @@
     background-color: rgba(165, 55, 253, 1);
     background-color: #2a2a2a;
     width: 340px;
-    // margin: auto;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 0;
@@ -261,7 +241,6 @@
     background-color: rgba(165, 55, 253, 1);
     background-color: #000000;
     width: 340px;
-    // margin: auto;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 0;
@@ -280,7 +259,6 @@
     background-color: rgba(165, 55, 253, 1);
     background-color: #bdbdbd;
     width: 340px;
-    // margin: auto;
     height: 150px;
     margin-bottom: 0px;
     margin-top: 0;
@@ -295,13 +273,10 @@
 }
 
 #all-projects img{
-    // width: 340px;
     width: 360px;
-    // height: 280px;
     height: 250px;
     margin: auto;
     margin-bottom: 5px;
-    // border: solid 2px black;
     position: relative;
     left: -10px;
     top: -10px;
@@ -322,10 +297,7 @@
 //media Queries
 @media screen and (min-width: 700px){
     .all-projects-header {
-        // margin-top: -10px;
-        // overflow: hidden;
         width: 100%;
-        // height: 70px;
         position: fixed;
         background-color: rgba(000,000,000, 0.8);
         z-index: 1;
@@ -334,9 +306,6 @@
         width: 80%;
         padding-left: 20px;    
     }
-    // .all-projects-header .main-navbar .left{
-    //     margin-top: 10px;
-    // }
     .all-projects-header .main-navbar input[type="checkbox" i] {
         display: none;
     }
@@ -354,8 +323,6 @@
         border: solid 2px #e31b6d;
         padding-top: 5px;
         padding-bottom: 5px;
-        // border-radius: 20px;
-        // background-color: #e31b6d;
         color: #e31b6d !important;
     }
     .all-projects-header .main-navbar #mainMenu .resume-button:hover{
@@ -372,45 +339,16 @@
         padding-right: 3%;
     }
     #all-projects{
-    //     box-sizing: border-box;
         height: 200vh;
         box-sizing: border-box;
-    //     padding-top: 50px;
-    //     margin-bottom: 0;
-    //     width: 100%;
-    //     margin: auto;
-    //     background-color: #fff;
     }
-    // #all-projects .highlight{
-    //     color: #e31b6d;
-    // }
     #all-projects h1 {
         font-size: 40px;
-    //     text-transform: uppercase;
-    //     color: #444649;
-    //     text-align: center;
-    //     margin-bottom: 10px;
         margin-top: 80px;
     }
-    // #all-projects h3 {
-    //     // color: rgba(165, 55, 253, 1);
-    //     text-transform: uppercase;
-    //     margin-bottom: 10px;
-    // }
-    // #all-projects .title-hr{
-    //     margin-bottom: 50px;
-    // }
     #all-projects hr{
-    //     margin-top: 0;
-    //     width: 20%;
-    //     border: 2px solid #e31b6d;
-    //     color: #444649;
         margin-bottom: 100px;
     }
-    // #all-projects .projects hr{
-    //     float: left;
-    //     margin-top: 0px;
-    // }
     #all-projects .project-container{
         display: flex;
         flex-direction: row;
@@ -424,20 +362,9 @@
         padding-left: 15px;
         padding-right: 15px;
         overflow-y: hidden;
-        // align-items: center;
-        // // width: 100%;
-        // // margin: auto;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-    
     }
     #all-projects .project-wrapper{
-        // color: #fff;
-        // margin-bottom: 10px;
         width: 30%;
-        // // margin: auto;
-        // padding: 10px;
         border: solid #fff 1px;
         border-width: 5px;
     }
@@ -445,14 +372,8 @@
         background-color: rgba(227,27,107,0.8);
         background-blend-mode: darken;
     }
-    #all-projects .projects:hover{
-        
-    }
     #all-projects .projects img:hover {
         background-color: rgba(227,27,107,0.8);
         background-blend-mode: overlay;
-    }
-    .kanter-project{
-        
     }
 }
