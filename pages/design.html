@@ -20,51 +20,179 @@
     </head>
     <body>
 
-        <header id="projects-showcase">
+        <header class="all-projects-header" id="showcase projects-showcase">
             <div class="nav-wrapper">
-                <div class="main-navbar">
-                    <a href="../index.html" class="left">
-                        <h1 class="hero-logo-text">Johnnsonkp</h1>
-                    </a>
-                    <nav class="right">
-                        <input type="checkbox" id="menuShowHide">
-                        <label for="menuShowHide"></label>
-                        <ul id="mainMenu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul> 
-                        <button class="nav-resume">Resume</button>  
-                    </nav>
+                <div id="nav-container">
+                    <div class="main-navbar">
+                        <a href="../index.html" class="left">
+                            <h1 class="hero-logo-text">Johnnsonkp</h1>
+                        </a>
+                        <!-- Hamburger menu -->
+                        <div id="hamburger-menu">
+                            <nav class="right">
+                                <input type="checkbox" id="menuShowHide">
+                                <label for="menuShowHide"></label>
+                                <ul id="mainMenu">
+                                    <li class="menu-li home-li"><a class="home" href="../index.html">Home</a></li>
+                                    <li class="menu-li portfolio"><a class="portfolio" href="#">Portfolio</a></li>
+                                    <li class="menu-li"><a class="about" href="#">About</a></li>
+                                    <li class="menu-li"><a class="blog" href="#">Blog</a></li>
+                                    <li class="menu-li"><a class="contact" href="#">Contact</a></li>
+                                    <li class="resume-button"><a href="">Resume</a></li>
+                                </ul>   
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
 
-        <section id="all-projects" class="design-projects">
+        <section id="all-projects">
             <div class="title-hr">
                 <h1>Web Design Projects</h1>
                 <hr>
             </div>
-            <div class="project-wrapper">
-                <div class="projects zen-project">
-                    <a href="https://codepen.io/Johnnsonkp/full/yLJgqPy">
-                        <img src="../Images/czg.png">
-                    </a>
-                    <div class="zen-project-wrapper">
-                        <div class="header-hr">
-                            <h3>CZG - CSS ZEN GARDEN (unfinished)</h3>
-                            <hr>
+            
+            <div class="project-container">
+                <!-- <div class="project-wrapper">
+                    <div class="projects kanter-project">
+                        <a href="https://kanter-digital-marketing-johnnsonkp.netlify.app/">
+                             <img src="../Images/digital-agency-down.jpg"> -->
+                            <!-- <img src="../Images/digital-agency.jpg">
+                        </a>
+                        <div class="kanter-project-wrapper">
+                            <div class="header-hr">
+                                <h3>Kanter Digital Agency</h3>
+                                <hr>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. </p>
                         </div>
-                        <p>It is a long established fact that a reader will be distracted by the readable
-                            content of a page when looking at its layout. </p>
+                    </div>
+                </div> --> 
+                <div class="project-wrapper">
+                    <div class="projects zen-project">
+                        <a href="https://codepen.io/Johnnsonkp/full/yLJgqPy">
+                            <img src="../Images/czg.png">
+                        </a>
+                        <div class="zen-project-wrapper">
+                            <div class="header-hr">
+                                <h3>CZG - CSS ZEN GARDEN (unfinished)</h3>
+                                <hr>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. </p>
+                        </div>
                     </div>
                 </div>
+                <!-- <div class="project-wrapper">
+                    <div class="projects asap-project">
+                        <a href="https://codepen.io/Johnnsonkp/full/ExyQpro">
+                            <img src="../Images/asap-mob.png">
+                        </a>
+                        <div class="asap-project-wrapper">
+                            <div class="header-hr">
+                                <h3>ASAP Mob Band Challenge</h3>
+                                <hr>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. </p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="project-wrapper">
+                    <div class="projects todo-project">
+                        <a href="https://codepen.io/Johnnsonkp/full/pobjVXy">
+                            <img src="../Images/to-do-list.png">
+                        </a>
+                        <div class="todo-project-wrapper">
+                            <div class="header-hr">
+                                <h3>To-do List - (jQuery)</h3>
+                                <hr>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project-wrapper">
+                    <div class="projects Pluralsite-project">
+                        <a href="https://codepen.io/Johnnsonkp/full/wvWwOmL">
+                            <img src="../Images/plural-site.png">
+                        </a>
+                        <div class="Pluralsite-project-wrapper">
+                            <div class="header-hr">
+                                <h3>Pluralsite Clone</h3>
+                                <hr>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. </p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="project-wrapper">
+                    <div class="projects BitChain-project">
+                        <a href="https://codepen.io/Johnnsonkp/full/qBNZXbd">
+                            <img src="../Images/bitchain.png">
+                        </a>
+                        <div class="BitChain-project-wrapper">
+                            <div class="header-hr">
+                                <h3>BitChain Clone Site</h3>
+                                <hr>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. </p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="project-wrapper">
+                    <div class="projects RGB-projects">
+                        <a href="https://codepen.io/Johnnsonkp/full/dyXYeWV">
+                            <img src="../Images/rgb-game.png">
+                        </a>
+                        <div class="RGB-project-wrapper">
+                            <div class="header-hr">
+                                <h3>RGB Color Game</h3>
+                                <hr>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. </p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="project-wrapper">
+                    <div class="projects itunes-project">
+                        <a href="https://codepen.io/Johnnsonkp/full/QWEjrOe">
+                            <img src="../Images/itunes-clone.png">
+                        </a>
+                        <div class="itunes-project-wrapper">
+                            <div class="header-hr">
+                                <h3>Itunes Clone Site</h3>
+                                <hr>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. </p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="project-wrapper">
+                    <div class="projects parallax-project">
+                        <a href="https://codepen.io/Johnnsonkp/full/XWKmqVj">
+                            <img src="../Images/paralax-site.png">
+                        </a>
+                        <div class="parallax-project-wrapper">
+                            <div class="header-hr">
+                                <h3>Paralax Site Clone</h3>
+                                <hr>
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. </p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </section>
-
-
 
         <footer id="main-footer">
             <button>
@@ -80,8 +208,12 @@
                 <div class="codepen">
                     <a href="https://codepen.io/Johnnsonkp"><i class="fab fa-codepen fa-2x"></i></a>
                 </div>
+                <div class="github">
+                    <a href="https://github.com/Johnnsonkp"><i class="fab fa-github fa-2x"></i></a>
+                </div>
             </div>
             <h5><span class="highlight">Johnnsonkp</span> &copy2020 </h5>
         </footer>
+
     </body>
 </html>

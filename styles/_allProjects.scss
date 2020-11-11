@@ -4,8 +4,9 @@
     padding: 30px;
 }
 .main-navbar{
-    z-index: 10;
-    position: absolute;
+    z-index: 1;
+    position: fixed;
+    // background-color: rgba(000, 000, 000, 0.9);
     top: 3px;      //remove when position is set to absolute
     left: 13px;    //remove when position is set to absolute 
     width: 95%;
@@ -422,6 +423,7 @@
         padding-bottom: 90px;
         padding-left: 15px;
         padding-right: 15px;
+        overflow-y: hidden;
         // align-items: center;
         // // width: 100%;
         // // margin: auto;

@@ -47,7 +47,8 @@ body{
     left: 0;
     width: cover;
     // height: 100%;
-    max-width: 180vh;
+    // max-width: 180vh;
+    width: 100%;
     overflow: hidden;
     background: black;
     margin-bottom: 0;
@@ -55,8 +56,11 @@ body{
 .video-container video{
     // min-width: 100%;
     // min-height: 100%;
-    max-width: 180vh;
+    max-width: 580vh;
     object-fit: cover;
+    width: 1700px;
+    background-repeat: repeat-x;
+    background-size: cover;
 }
 .header-content{
     z-index: 10;
@@ -179,4 +183,14 @@ body{
 }
 #main-footer .highlight {
     color: #e31b6d;
+}
+//Navbar 
+#showcase #nav-container {
+    margin-top: -10px;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
 }

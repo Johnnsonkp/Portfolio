@@ -167,10 +167,10 @@
 
 @media screen and (min-width: 700px){
     //Showcase
-    body, section{
-        overflow-x: hidden;
-        // overflow-y: hidden;
-    }
+    // body, section{
+    //     overflow-x: hidden;
+    //     // overflow-y: hidden;
+    // }
     #showcase:hover{
         .home{ 
             color: #e31b6d;
@@ -398,6 +398,7 @@
         // margin-right: 20%;
         position: relative;
         left: -150px;
+        top: 120px;
         right: 0px;
         padding-right: 20%;
     }
@@ -410,7 +411,7 @@
         // align-items: center;
         position: relative;
         left: 200px;
-        top: -650px;
+        top: -730px;
         width: 91%;
     } 
     #about-section .about-content .about-me h3{
@@ -470,6 +471,32 @@
 }
 
 @media screen and (min-width: 1000px) {
+    //about me
+    #about-section .about-content .greeting-img-wrapper{
+        // height: 60vh;
+        // display: inline-block;
+        // width: 80%;
+        // display: inline-block;
+        // margin-left: 20%;
+        // margin-right: 20%;
+        position: relative;
+        left: -150px;
+        top: 180px;
+        right: 0px;
+        padding-right: 20%;
+    }
+    #about-section .about-content .about-me {
+        // margin-top: 30px;
+        // padding-left: 40px;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        position: relative;
+        left: 200px;
+        top: -600px;
+        width: 91%;
+    }
     //Blog
     #blog-section{
         height: 150vh;
@@ -494,13 +521,13 @@
         flex-direction: row;
         justify-content: space-around;
         flex-flow: row wrap;
-        width: 95%;
+        width: 70%;
         margin: auto;
         align-items: center;
     }
     #blog-section .blogs-container .blogs img {
         // width: 100%;
-        height: 180px;
+        height: 160px;
     }
     #blog-section .blogs-container .blogs {
         width: 30%;
@@ -609,7 +636,7 @@
         padding-left: 130px;
         display: flex;
         position: relative;
-        top: -750px;
+        top: -850px;
     } 
     #about-section .about-content .about-me h3{
         // font-size: 35px;

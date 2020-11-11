@@ -23,25 +23,30 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     </head>
 
-    <body>
-        <header id="projects-showcase">
+    <body id="all-projects-body">
+        <header class="all-projects-header" class="minus-margin" id="showcase projects-showcase">
             <div class="nav-wrapper">
-                <div class="main-navbar">
-                    <a href="../index.html" class="left">
-                        <h1 class="hero-logo-text">Johnnsonkp</h1>
-                    </a>
-                    <nav class="right">
-                        <input type="checkbox" id="menuShowHide">
-                        <label for="menuShowHide"></label>
-                        <ul id="mainMenu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul> 
-                        <button class="nav-resume">Resume</button>  
-                    </nav>
+                <div id="nav-container">
+                    <div class="main-navbar">
+                        <a href="../index.html" class="left">
+                            <h1 class="hero-logo-text">Johnnsonkp</h1>
+                        </a>
+                        <!-- Hamburger menu -->
+                        <div id="hamburger-menu">
+                            <nav class="right">
+                                <input type="checkbox" id="menuShowHide">
+                                <label for="menuShowHide"></label>
+                                <ul id="mainMenu">
+                                    <li class="menu-li home-li"><a class="home" href="../index.html">Home</a></li>
+                                    <li class="menu-li portfolio"><a class="portfolio" href="#">Portfolio</a></li>
+                                    <li class="menu-li"><a class="about" href="#">About</a></li>
+                                    <li class="menu-li"><a class="blog" href="#">Blog</a></li>
+                                    <li class="menu-li"><a class="contact" href="#">Contact</a></li>
+                                    <li class="resume-button"><a href="">Resume</a></li>
+                                </ul>   
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -56,18 +61,100 @@
                     </div>
 
                     <div class="main-content">
-                        <div class="left-img">
-                            <img src="">
-                        </div>
+                        <!-- <div class="left-img">
+                            <img src="../Images/about-more-pic.JPG">
+                        </div> -->
                         <div class="text-content">
-                            <span class="large-comma-top">“</span>
-                            <h4>Data entry champion with a background in IT and Admin, seeking the successful
-                                application of Information Technology knowledge, admin and data entry experience
-                                into a Front-end web developer role.
-                            </h4>
-                            <span class="large-commas-bottom">”</span>
+                            <div class="hero-text-commas">
+                                <span class="large-comma-top">“</span>
+                                    <h4>Data entry champion with a background in IT and Admin, seeking the successful
+                                        application of Information Technology knowledge, admin and data entry experience
+                                        into a Front-end web developer role.
+                                    </h4>
+                                <span class="large-commas-bottom">”</span>
+                            </div>
 
-                            <div class="education-experience">
+                            <div class="main-body-container">
+                                <div class="right">
+                                    <div class="object"></div>
+                                    <img src="../Images/about-more-pic.JPG">
+                                </div>
+                                <div class="left">
+                                    <div class="education-experience">
+                                        <div class="professional-experience">
+                                            <h3>Professional Experience</h3>
+                                            <hr>
+                                            <div class="all-jobs">
+                                                <div class="jobs">
+                                                    <div class="left">
+                                                        <i class="fas fa-angle-right fa-2x"></i>
+                                                    </div>
+                                                    <div class="right">
+                                                        <p><strong>My Emergency Dr, Sydney - [2019 - Present]</strong></p>
+                                                        <p>PSO & Data Entry, {REMOTE}</p>
+                                                    </div>
+                                                </div>
+                
+                                                <div class="jobs">
+                                                    <div class="left">
+                                                        <i class="fas fa-angle-right fa-2x"></i>
+                                                    </div>
+                                                    <div class="right">
+                                                        <p><strong>HCF Insurance, Parramatta - [2018 - 2019]</strong></p>
+                                                        <p>Member Care Consultant</p>
+                                                    </div>
+                                                </div>
+            
+                                                <div class="jobs">
+                                                    <div class="left">
+                                                        <i class="fas fa-angle-right fa-2x"></i>
+                                                    </div>
+                                                    <div class="right">
+                                                        <p><strong>NRMA Motoring & Services, Sydney Olympic Park - [2016 - 2018]</strong></p>
+                                                        <p>Customer Service Representative, Inbound & Outbound Specialist</p>
+                                                    </div>
+                                                </div>
+            
+                                            </div>
+                                        </div>
+            
+                                        <div class="Education">
+                                            <h3>Education</h3>
+                                            <hr>
+                                            <div class="education-wrapper">
+                                                <div class="studies">
+                                                    <div class="left">
+                                                        <i class="fas fa-angle-right fa-2x"></i>
+                                                    </div>
+                                                    <div class="right">
+                                                        <p><strong>CoderAcademy</strong> - Diploma in IT</p>
+                                                    </div>
+                                                </div>
+            
+                                                <div class="studies">
+                                                    <div class="left">
+                                                        <i class="fas fa-angle-right fa-2x"></i>
+                                                    </div>
+                                                    <div class="right">
+                                                        <p><strong>Bachelor of Information Technology</strong> - RMIT</p>
+                                                    </div>
+                                                </div>
+                                                <div class="studies">
+                                                    <div class="left">
+                                                        <i class="fas fa-angle-right fa-2x"></i>
+                                                    </div>
+                                                    <div class="right">
+                                                        <p><strong>Allsaints Catholic Senior College</strong> - High School Certificate</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="education-experience">
                                 <div class="professional-experience">
                                     <h3>Professional Experience</h3>
                                     <hr>
@@ -137,7 +224,7 @@
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </div> -->
                             
 
                         </div>
@@ -151,6 +238,7 @@
 
 
 
+        
         <footer id="main-footer" class="all-projects-footer">
             <button>
                 <a href="./index.html"><i class="fas fa-angle-up fa-3x"></i></a>
@@ -164,6 +252,9 @@
                 </div>
                 <div class="codepen">
                     <a href="https://codepen.io/Johnnsonkp"><i class="fab fa-codepen fa-2x"></i></a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/Johnnsonkp"><i class="fab fa-github fa-2x"></i></a>
                 </div>
             </div>
             <h5><span class="highlight">Johnnsonkp</span> &copy2020 </h5>
