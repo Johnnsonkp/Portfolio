@@ -474,8 +474,8 @@ body {
   height: 50px;
   text-align: center;
   border-radius: 100px;
-  background-color: #e31b6d;
-  color: #fff;
+  background-color: #fff;
+  color: #e31b6d;
 }
 
 #about-section .about-content .about-me {
@@ -532,14 +532,11 @@ body {
     text-align: center;
   }
   .dev-tools i {
-    border: solid 1px #e31b6d;
     padding: 10px;
     width: 50px;
     height: 50px;
     text-align: center;
     border-radius: 100px;
-    background-color: #e31b6d;
-    color: #fff;
   }
 }
 
