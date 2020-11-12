@@ -258,7 +258,7 @@
         font-size: 40px;
     }
     #projects-section{
-        height: 60vh;
+        height: 80vh;
         overflow-x: hidden;
         overflow-y: hidden;
     }
@@ -471,11 +471,15 @@
 }
 
 @media screen and (min-width: 1000px) {
+    //projects
+    #projects-section{
+        height: 80vh;
+    }
     //about me
     #about-section .about-content .greeting-img-wrapper{
         // height: 60vh;
         // display: inline-block;
-        // width: 80%;
+        // width: 160%;
         // display: inline-block;
         // margin-left: 20%;
         // margin-right: 20%;
@@ -494,7 +498,7 @@
         // align-items: center;
         position: relative;
         left: 200px;
-        top: -600px;
+        top: -660px;
         width: 91%;
     }
     //Blog
