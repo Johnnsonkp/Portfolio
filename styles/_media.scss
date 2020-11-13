@@ -140,6 +140,12 @@
         width: 432px;
     }
 }
+@media screen and (min-width: 768px){
+    #about-section{
+        height: 80vh;
+    }
+}
+
 @media screen and (min-width: 700px){
     //Blogs
     #blog-section .blog-header-hr {
