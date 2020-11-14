@@ -53,6 +53,7 @@
     width: 100%;
     margin: auto;
     background-color: #e9e9e9;
+    height: 230vh;
 }
 #all-projects .highlight{
     color: #e31b6d;
@@ -295,7 +296,9 @@
 #main-footer .design-footer{
     margin-top: 0px;
 }
-
+.all-projects-footer{
+    margin-top: -700px;
+}
 
 //media Queries
 @media screen and (min-width: 700px){
