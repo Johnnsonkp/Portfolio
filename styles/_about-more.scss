@@ -5,14 +5,11 @@
     display: none;
 }
 .all-projects-header{
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 #about-more-content{
     margin-top: 80px;
     height: 100vh;
-    // margin: 0;
-    // overflow-y: hidden;
-    
 }
 #about-more-content .content-wrapper .container{
     width: 95%;
@@ -172,13 +169,13 @@
     #all-projects-body{
         margin: 0;
     }
-    #all-projects-body .all-projects-header {
-        width: 100%;
-        margin-top: -90px !important;
-        position: fixed;
-        background-color: rgba(0, 0, 0, 0.8);
-        z-index: 1;
-    }
+    // #all-projects-body .all-projects-header {
+    //     width: 100%;
+    //     margin-top: -90px !important;
+    //     position: fixed;
+    //     background-color: rgba(0, 0, 0, 0.8);
+    //     z-index: 1;
+    // }
     #about-more-content .main-content .education-experience{
         // position: relative;
         // left: -6px;
@@ -202,6 +199,7 @@
         width: 100%;
         margin: auto;
     }
+    
     @media screen and (min-width: 850px){
         .main-content .main-body-container{
             // position: relative;

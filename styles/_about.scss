@@ -62,6 +62,18 @@
     width: 100%;
     text-align: center;
     display: none;
+    // border-bottom: solid 1px #e31b6d;
+    // border-width: 0.2px;
+}
+#about-section .about-hr{
+    display: none;
+    position: relative;
+    top: -713px;
+    width: 85%;
+    border: 0;
+    height: 1px;
+    // background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(227, 27, 109, 0), rgba(227, 27, 109, 0.75), rgba(227, 27, 109, 0));
 }
 .dev-tools i {
     margin-bottom: -20px;
@@ -73,6 +85,11 @@
     border-radius: 10px;
     background-color: #f5f5f5;
     color: #e31b6d;
+    cursor: pointer;
+}
+.dev-tools i:hover{
+    color: #f5f5f5;
+    background-color: #e31b6d;
 }
 #about-section .about-content .about-me {
     position: absolute;

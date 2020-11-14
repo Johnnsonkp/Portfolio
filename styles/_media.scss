@@ -50,6 +50,11 @@
         border-top: 0;
     }
 }
+@media screen and (max-width: 499px){
+    #contact-section .contact-form .submit-button {
+        width: 335px;
+    }
+}
 //To remove side scroll on mobile version
 @media screen and (max-width: 375px){
     #showcase{
@@ -70,7 +75,15 @@
         padding-top: 20px;
     }
     #blog-section {
-        height: 230vh;
+        height: 250vh;
+    }
+    //contact section
+    #contact-section .contact-details{
+        width: 100%;
+    }
+    #contact-section .contact-details .contact-form {
+        width: 98%;
+        margin: auto;
     }
 }
 
@@ -133,6 +146,9 @@
 //         margin: auto;
 //         text-align: center;
 //     }
+    #contact-section .contact-details iframe{
+        display: block;
+    }
     #contact-section .contact-form input {
         width: 400px;
     }
@@ -268,6 +284,15 @@
         margin-top: 0px;
         align-self: flex-start;
     }
+    #blog-section .blogs-container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #blog-section .blogs-container .blogs{
+        width: 40%;
+    }
 }
 @media screen and (min-width: 850px){
     body h1{
@@ -394,6 +419,9 @@
         
     }
     //About section
+    #about-section .about-hr{
+        display: block;
+    }
     #about-section .about-content h1{
         font-size: 40px;
     }
@@ -452,7 +480,7 @@
     }
     #blog-section .blogs-container {
         // width: 85%;
-        width: 40%;
+        // width: 40%;
         // transform: scale(1.05);
         // margin: auto;
         // text-align: center;
@@ -490,6 +518,20 @@
     }
 }
 
+@media screen and (min-width: 900px){
+    #contact-section .contact-details{
+        width: 96%;
+    }
+    #contact-section .contact-details{
+        flex-wrap: nowrap;
+    }
+    #contact-section .contact-details form{
+        padding-right: 10px;
+    }
+    #contact-section .contact-details iframe{
+        padding-left: 10px;
+    }
+}
 @media screen and (min-width: 1000px) {
     //projects
     #projects-section{
@@ -520,6 +562,11 @@
         left: 200px;
         top: -660px;
         width: 91%;
+    }
+    #about-section .about-hr{
+        position: relative;
+        top: -700px;
+        width: 100%;
     }
     //Blog
     #blog-section{
@@ -670,5 +717,17 @@
     }
     #about-section .about-content .about-me p{
         // width: 55%;
+    }
+    #about-section .about-hr{
+        position: relative;
+        top: -880px;
+        left: 280px;
+        width: 60%;
+        border: 0;
+        height: 1px;
+    }
+    //contact section
+    #contact-section .contact-details{
+        width: 85%;
     }
 }
