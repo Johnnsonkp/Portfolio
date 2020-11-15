@@ -22,8 +22,11 @@
         text-decoration: none;
     }  
     #menuShowHide+label {
-        position: relative;
-        float: right;
+        // position: relative;
+        position: absolute;
+        top: 30px;
+        left: 300px;
+        // float: right;
         padding: 0.5em;
         margin: -4.75em 0.5em 0;
         border: transparent;
@@ -57,6 +60,32 @@
 }
 //To remove side scroll on mobile version
 @media screen and (max-width: 375px){
+    #hamburger-menu #mainMenu{
+        height: 70vh;
+        position: relative;
+        left: -98px;
+        background-color: rgba(27, 36, 47, 1);
+        margin-top: 40px;
+        border-radius: 20px;
+        border: 1px solid #fff;
+        padding-left: 120px;
+        padding-right: 100px;
+        width: 100px;
+        z-index: 2;
+    }
+    #hamburger-menu #mainMenu li {
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        z-index: 2;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        a{
+            color: #e31b6d;
+        }
+    }
     #showcase{
         width: 375px;
     }
@@ -292,6 +321,10 @@
     }
     #blog-section .blogs-container .blogs{
         width: 40%;
+    }
+    #blog-section .blogs-container .blogs img {
+        width: 100%;
+        height: 200.14px;
     }
 }
 @media screen and (min-width: 850px){
@@ -532,19 +565,13 @@
         padding-left: 10px;
     }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px){
     //projects
     #projects-section{
-        height: 80vh;
+        height: 100vh;
     }
     //about me
     #about-section .about-content .greeting-img-wrapper{
-        // height: 60vh;
-        // display: inline-block;
-        // width: 160%;
-        // display: inline-block;
-        // margin-left: 20%;
-        // margin-right: 20%;
         position: relative;
         left: -150px;
         top: 180px;
@@ -552,12 +579,6 @@
         padding-right: 20%;
     }
     #about-section .about-content .about-me {
-        // margin-top: 30px;
-        // padding-left: 40px;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
         position: relative;
         left: 200px;
         top: -660px;
@@ -570,24 +591,12 @@
     }
     //Blog
     #blog-section{
-        height: 150vh;
+        height: 180vh;
     }
     #blog-section .blog-header-hr {
         margin-bottom: 120px;
     }
     #blog-section .blogs-container {
-        // width: 85%;
-        // width: 90%;
-        
-        // margin: auto;
-        // display: flex;
-        // width: 95%;
-        // flex-wrap: wrap;
-        // justify-self: space-between;
-        // align-self: space-between;
-        // transform: scale(1.05);
-        // margin: auto;
-        // text-align: center;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -602,12 +611,6 @@
     }
     #blog-section .blogs-container .blogs {
         width: 30%;
-        // width: 100%;
-        // padding-left: 1%;
-        // padding-right: 1%;
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
     }
     #blog-section .blogs-container .blogs h3{
         font-size: 20px;
@@ -616,8 +619,6 @@
         font-size: 13px;
     }
     #blog-section .blogs-container .blogs p{
-        // margin-top: 10px;
-        // width: 100%;
         font-size: 14px;
     }
     #blog-section .blogs-container .blogs button {
@@ -647,10 +648,7 @@
 @media screen and (min-width: 1200px){
     //About section
     #about-section{
-        // height: 100vh;
-        // overflow-x: hidden;
-        // overflow-y: hidden;
-        height: 120vh;
+        height: 80vh;
     }
     #about-section .header-hr{
         // margin-top: 80px;
@@ -660,12 +658,6 @@
         // height: 100%;
     }
     #about-section .about-content .greeting-img-wrapper{
-        // height: 60vh;
-        // display: inline-block;
-        // width: 80%;
-        // display: inline-block;
-        // margin-left: 20%;
-        // margin-right: 20%;
         position: relative;
         left: -200px;
         top: -80px;
@@ -693,15 +685,6 @@
         font-size: 80px;
     }
     #about-section .about-content .about-me {
-        // margin-top: 30px;
-        // padding-left: 40px;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
-        // position: relative;
-        // left: 200px;
-        // top: -650px;
         width: 80%;
         margin: auto;
         padding-left: 130px;

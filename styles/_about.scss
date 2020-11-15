@@ -52,6 +52,7 @@
 #about-section .about-content .say-hi {
     position: relative;
     z-index: 01;
+    display: inline;
 }
 .dev-tools{
     position: relative;
@@ -138,7 +139,7 @@
         width: 80%;
         margin: auto;
         text-align: center;
-
+        padding-top: 20px;
     }
     .dev-tools i {
         // border: solid 1px #e31b6d;

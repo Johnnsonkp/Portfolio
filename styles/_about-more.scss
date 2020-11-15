@@ -235,10 +235,6 @@
             z-index: -0.5;
         }
         .main-content .main-body-container .left{
-            // display: block;
-            // width: 40%;
-            // position: relative;
-            // left: 440px;
             width: 100%;
             max-width: 635px;
         }
@@ -255,7 +251,27 @@
             padding-left: 8%;
             padding-top: 12%;
             padding-bottom: 5%;
-            
+        }
+    }
+    @media screen and (min-width: 1300px){
+        .main-content .main-body-container .object {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            top: -520px;
+            left: 240px;
+        }
+        .main-content .main-body-container img{
+            width: 400px;
+            height: 500px;
+            position: relative;
+            top: -700px;
+        }
+        .main-content .main-body-container{
+            width: 95%;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
         }
     }
 }
